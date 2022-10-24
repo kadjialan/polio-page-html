@@ -1,0 +1,27 @@
+.nav{
+  background-color: red;
+  width: 100%;
+  justify-content: flex-end;
+  height: 45px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
+.mimic{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 500px;  
+}
+.mimic p{
+    color: brown;
+}
