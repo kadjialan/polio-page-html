@@ -2,7 +2,7 @@
   background-color: red;
   width: 100%;
   justify-content: flex-end;
-  height: 45px;
+  height: 47px;
   display: flex;
   gap: 15px;
 }
@@ -11,7 +11,8 @@
     text-decoration: none;
     color: white;
     font-size: large;
-    padding: 5px;
+    padding: 7px;
+    text-align: center;
 }
 .mimic{
     justify-content: center;
