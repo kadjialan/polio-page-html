@@ -26,3 +26,30 @@
 .mimic p{
     color: brown;
 }
+.Projects{
+    text-align: center;
+    background-color: aqua;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}   
+
+hr{
+background-color: azure;
+    width: 400px;
+    height: 5px;
+
+ }   
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+figure{
+    margin: 10px;
+    background-color: black;
+}
