@@ -32,7 +32,7 @@
     color: azure;
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 1000px;
 }   
 
 hr{
@@ -49,7 +49,30 @@ background-color: azure;
     margin: auto;
 
 }
-figure{
-    margin: 10px;
+figcaption{
+    background-color: black;   
+}
+button{
     background-color: black;
+    color: white;
+}
+.end{
+    text-align: center;
+    display: flex;
+    background-color: black;
+    color: azure;
+    flex-direction: column;
+    padding: 200px;
+} 
+.footer{
+    text-align: center;
+    display: flex;
+    background-color: black;
+    color: azure;
+    flex-direction: column;
+    padding: 100px;
+}
+.footer hr{
+    background-color: red;
+    width: 100%;
 }
