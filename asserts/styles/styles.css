@@ -1,4 +1,4 @@
-.nav{
+.nav {
   background-color: red;
   width: 100%;
   justify-content: flex-end;
@@ -7,72 +7,78 @@
   gap: 15px;
 }
 
-.nav a{
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    padding: 7px;
-    text-align: center;
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  padding: 7px;
+  text-align: center;
 }
-.mimic{
-    justify-content: center;
-    text-align: center;
-    background-color: black;
-    color: azure;
-    display: flex;
-    flex-direction: column;
-    height: 500px;  
+
+.mimic {
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
 }
-.mimic p{
-    color: brown;
+
+.mimic p {
+  color: brown;
 }
-.Projects{
-    text-align: center;
-    background-color: aqua;
-    color: azure;
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
+
+.Projects {
+  text-align: center;
+  background-color: aqua;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
 }   
 
-hr{
-background-color: azure;
-    width: 400px;
-    height: 5px;
+hr {
+  background-color: azure;
+  width: 400px;
+  height: 5px;
+}   
 
- }   
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
 
-.images{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
+figcaption {
+  background-color: black;   
+}
 
+button {
+  background-color: black;
+  color: white;
 }
-figcaption{
-    background-color: black;   
-}
-button{
-    background-color: black;
-    color: white;
-}
-.end{
-    text-align: center;
-    display: flex;
-    background-color: black;
-    color: azure;
-    flex-direction: column;
-    padding: 200px;
+
+.end {
+  text-align: center;
+  display: flex;
+  background-color: black;
+  color: azure;
+  flex-direction: column;
+  padding: 200px;
 } 
-.footer{
-    text-align: center;
-    display: flex;
-    background-color: black;
-    color: azure;
-    flex-direction: column;
-    padding: 100px;
+
+.footer {
+  text-align: center;
+  display: flex;
+  background-color: black;
+  color: azure;
+  flex-direction: column;
+  padding: 100px;
 }
-.footer hr{
-    background-color: red;
-    width: 100%;
+
+.footer hr {
+  background-color: red;
+  width: 100%;
 }
