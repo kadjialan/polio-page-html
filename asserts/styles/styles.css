@@ -38,13 +38,12 @@
   height: 1000px;
 }
 
-   
+
 hr {
   background-color: azure;
   width: 400px;
   height: 5px;
 }
-
 
 .images {
   display: flex;
@@ -54,7 +53,7 @@ hr {
 }
 
 figcaption {
-  background-color: black;  
+  background-color: black;
 }
 
 button {
@@ -70,7 +69,6 @@ button {
   flex-direction: column;
   padding: 200px;
 }
-
 
 .footer {
   text-align: center;
