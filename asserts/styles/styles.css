@@ -29,7 +29,7 @@
   color: brown;
 }
 
-.Projects {
+.projects {
   text-align: center;
   background-color: aqua;
   color: azure;
@@ -37,7 +37,6 @@
   flex-direction: column;
   height: 1000px;
 }
-
 
 hr {
   background-color: azure;
