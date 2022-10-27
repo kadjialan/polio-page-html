@@ -40,7 +40,7 @@ footer p {
 
 .work {
   text-align: center;
-  background-color: rgba(83 123 204 60%);
+  background-color: blue;
   color: azure;
   display: flex;
   flex-direction: column;
