@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  margin: 0px;
+  margin: 0;
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ footer p {
 
 .work {
   text-align: center;
-  background-color: rgba(83, 123, 204, 0.6);
+  background-color: rgba(83 123 204 60%);
   color: azure;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ hr {
   flex-wrap: wrap;
 }
 
-.pictures{
+.pictures {
   width: 25rem;
   height: 15rem;
 }
@@ -114,27 +114,26 @@ footer hr {
 
 /* .@import "https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"; */
 
+@media only screen and (max-width: 768px) {
 
-@media  only screen and (max-width: 768px){ 
-.pictures {
-  width: 12rem;
-  height: 7rem;
-}
+  .pictures {
+    width: 12rem;
+    height: 7rem;
+  }
 
-.header {
-  width: 48rem;
-}
+  .header {
+    width: 48rem;
+  }
 
-.work {
-  width: 48rem;
-}
+  .work {
+    width: 48rem;
+  }
 
-.contact {
-  width: 8rem;
-}
+  .contact {
+    width: 8rem;
+  }
 
-footer {
-  width: 48rem;
-}
-
+  footer {
+    width: 48rem;
+  }
 }
